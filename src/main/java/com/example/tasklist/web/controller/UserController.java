@@ -1,6 +1,6 @@
 package com.example.tasklist.web.controller;
 
-import com.example.tasklist.domain.user.Task;
+import com.example.tasklist.domain.task.Task;
 import com.example.tasklist.domain.user.User;
 import com.example.tasklist.service.TaskService;
 import com.example.tasklist.service.UserService;

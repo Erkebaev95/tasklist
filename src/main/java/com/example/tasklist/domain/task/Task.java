@@ -1,4 +1,4 @@
-package com.example.tasklist.domain.user;
+package com.example.tasklist.domain.task;
 
 import lombok.Data;
 

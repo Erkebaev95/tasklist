@@ -1,5 +1,6 @@
 package com.example.tasklist.domain.user;
 
+import com.example.tasklist.domain.task.Task;
 import lombok.Data;
 
 import java.util.List;

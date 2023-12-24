@@ -1,6 +1,5 @@
 package com.example.tasklist.service;
 
-import com.example.tasklist.domain.user.Task;
 import com.example.tasklist.domain.user.User;
 
 public interface UserService {
@@ -10,5 +9,5 @@ public interface UserService {
     User update(User user);
     User create(User user);
     void delete(Long id);
-    boolean isTaskOwner(Long userId, Task taskId);
+    boolean isTaskOwner(Long userId, Long taskId);
 }

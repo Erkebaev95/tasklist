@@ -1,10 +1,9 @@
 package com.example.tasklist.web.dto.task;
 
-import com.example.tasklist.domain.user.Status;
+import com.example.tasklist.domain.task.Status;
 import com.example.tasklist.web.dto.validation.OnCreate;
 import com.example.tasklist.web.dto.validation.OnUpdate;
 import com.fasterxml.jackson.annotation.JsonFormat;
-import com.fasterxml.jackson.annotation.JsonProperty;
 import jakarta.validation.constraints.NotNull;
 import lombok.Data;
 import org.hibernate.validator.constraints.Length;
